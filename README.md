@@ -19,5 +19,7 @@ Like icomoon, if title is "asset", the `id` will be `icon-asset`. If you want to
 * File can begin with `<svg>` instead of an XML header
 
 ## svg-sprite-css
-Takes an svg-sprite package and generates a CSS file containing new widths, for any icon that isn't square (icons are assumed to be 1em by 1em). This CSS code will correct the aspect ratio. In your code, set the font size to change the size of the icon.
+Takes an svg-sprite package and generates a CSS file containing new widths, for any icon that isn't square (icons are assumed to be 1em by 1em). This CSS code will correct the aspect ratio.
+
+In your code, set the font size to change the size of the icon.
 
