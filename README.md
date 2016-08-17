@@ -13,5 +13,11 @@ It uses the `<title></title>` element to figure out what the `id` should be. If 
 
 Like icomoon, if title is "asset", the `id` will be `icon-asset`. If you want to change this, change `$id_prefix` at the top of the file.
 
+### Cross Browser Assumptions
+* `<defs></defs>` is not needed 
+* `xmlns='blah'` attributes are not needed (invalid XML, but SVG is SVG)
+* File can begin with `<svg>` instead of an XML header
+
 ## svg-sprite-css
 Takes an svg-sprite package and generates a CSS file containing new widths, for any icon that isn't square (1em by 1em). Set the font size to change the size of the icon.
+
