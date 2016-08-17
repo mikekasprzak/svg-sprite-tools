@@ -17,7 +17,7 @@ Like icomoon, if title is "asset", the `id` will be `icon-asset`. If you want to
 * `<defs></defs>` is not needed 
 * `xmlns='blah'` attributes are not needed (invalid XML, but SVG is SVG)
 * File can begin with `<svg>` instead of an XML header
-* All SVG assets will be loaded in to the global scope. Really, you should only have one SVG file you embed/load, not multiple. The `<use xlink:href="my_file.svg#icon-banana">` syntax is wonky.
+* All SVG assets will be loaded in to the global scope. Really, you should only have one SVG file you embed/load, not multiple. The `<use xlink:href="my_file.svg#icon-banana">` syntax is wonky anyway.
 
 ## svg-sprite-css
 Takes an svg-sprite package and generates a CSS file containing new widths, for any icon that isn't square (icons are assumed to be 1em by 1em). This CSS code will correct the aspect ratio.
