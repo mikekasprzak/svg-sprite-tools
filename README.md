@@ -22,7 +22,7 @@ Like icomoon, if title is "asset", the `id` will be `icon-asset`. If you want to
 Takes an svg-sprite package and generates a CSS file containing new widths, for any icon that isn't square (icons are assumed to be 1em by 1em). This CSS code will correct the aspect ratio.
 
 # Using sprites
-```
+```xml
 <svg class="icon icon-banana"><use xlink:href="#icon-banana"></use></svg>
 ```
 
