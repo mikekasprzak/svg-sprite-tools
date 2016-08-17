@@ -13,5 +13,5 @@ It uses the `<title></title>` element to figure out what the `id` should be. If 
 
 Like icomoon, if title is "asset", the `id` will be `icon-asset`. If you want to change this, change `$id_prefix` at the top of the file.
 
-## svg-sprite-svg
+## svg-sprite-css
 Takes an svg-sprite package and generates a CSS file containing widths. It assumes all icons are `1em` tall (i.e. use font-size to make it bigger).
