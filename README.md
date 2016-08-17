@@ -1,5 +1,5 @@
 # svg-sprite-tools
-A pair of tools for packing and unpacking SVG sprites (i.e. `<symbol>`'s)
+Tools for packing, unpacking, and using SVG sprites (i.e. `<symbol>`'s)
 
 Written in PHP. Uses the SimpleDOM library (included).
 
